@@ -1,4 +1,25 @@
-.table-container
+.table-container, td, tr, th
 {
-    border: 2px black;
+    border-collapse: collapse;
+    border: solid 1px black;
+}
+.first
+{
+    background-color: red;
+}
+.second
+{
+    background-color: green;
+}
+.third
+{
+    background-color: blue;
+}
+.fourth
+{
+    background-color: yellow;
+}
+.fifth
+{
+    background-color: pink;
 }
